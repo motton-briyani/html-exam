@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example of HTML Frames Using col Attribute</title>
+  </head>
+
+  <frameset cols="*, *, *">
+    <frameset rows="*,*">
+      <frame name="1" src="1.html"/>
+      <frame name="2" src="2.html"/>
+    </frameset>
+    <frameset rows="*,*">
+      <frame name="Top" src="2.html"/>
+      <frame name="Top" src="7.html"/>
+    </frameset>
+    <frameset rows="*,*">
+         <frameset cols="*,*">
+            <frame src="3.html">
+            <frameset rows="*,*">
+                    <frame name="Top" src="4.html"/>
+                    <frame name="Top" src="5.html"/>
+                  </frameset>
+         </frameset>
+        
+        
+         <frameset rows="*,*">
+            <frame name="Top" src="8.html"/>
+            <frameset cols="*,*">
+                <frame name="Top" src="9.html"/>
+                <frame name="Top" src="10.html"/>
+              </frameset>
+          </frameset>
+      </frameset>
+  </frameset>
+</html>
